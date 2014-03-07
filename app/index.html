@@ -40,6 +40,21 @@
 
             <div class="jumbotron">
 
+              <div class="js-full-list full-list"></div>
+
+
+
+                    <div class="input-group text-input">
+                        <input type="text" class="form-control js-message-input new-todo-input">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default js-input-submit add-button" type="button">Post</button>
+                        </span>
+                    </div><!-- /input-group -->
+                    <div class="todo-items js-todo-items"></div><!-- The style is set and will be removed once javascript is set. -->
+                </div>
+            </div>
+
+
               <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
                 <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                   <div class="modal-dialog modal-lg">
@@ -49,6 +64,38 @@
                   </div>
                 </div>
               </div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="input-group input-group-lg">
+                            <input class="form-control js-username" placeholder="Choose a user name" type="text">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary add-album-button" data-dismiss="modal">Save changes</button>
+                    </div>
+                    </div>
+                </div>
+<!-- Modal -->
+
+
+<!-- template -->
+        <script type="text/template" id="comment-list-template">
+            <div class="together">
+                <h1><%= username %></h1>
+                <p><%= messageText %></p>
+                <h2><%= messageDate %></h2>
+            </div>
+        </script>
+  <!-- template -->
+
 
             </div>
 
