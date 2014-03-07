@@ -1,4 +1,4 @@
-console.log('\'Allo \'Allo!');
+console.log('Time to Twit!');
 
 $(function(){
   Parse.initialize("niea3eYLacFwpITMMHZf2pl9TVKRGtR4q6VNRDHx", "hNIHE3gc2yfnumjZ71PtsN8FjKUYSdoBGbbDtsG4");
