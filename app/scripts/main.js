@@ -1,7 +1,7 @@
 console.log('Time to Twit!');
 
 $(function(){
-  Parse.initialize("niea3eYLacFwpITMMHZf2pl9TVKRGtR4q6VNRDHx", "hNIHE3gc2yfnumjZ71PtsN8FjKUYSdoBGbbDtsG4");
+  Parse.initialize("phwGhKqm6U0MJIlcbfrd0tdWhRqPydU6GXvAwet1", "GFAFBQMttDSPzSG7lFdZIPb9qVdGtSYrsgP1HG7x");
 
   // var pizzaBurger = new Burger;
   // pizzaBurger.set('breadType', 'soggyish')

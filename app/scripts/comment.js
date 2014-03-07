@@ -1,6 +1,6 @@
 var Comment = Parse.Object.extend("Comment")
 
-var CommentsCollectin = Parse.Collection.extend({
+var CommentsCollection = Parse.Collection.extend({
   model: Comment
 
 })
